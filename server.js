@@ -18,7 +18,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-app.post("https://portfoliobackend-ldhj.onrender.com/", async (req, res) => {
+app.post("https://portfolio-backend-m645.onrender.com/", async (req, res) => {
   const { name, email, message } = req.body;
 
   try {
